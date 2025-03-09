@@ -1,0 +1,68 @@
+/* Styling for the container that holds the "Login" text */
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center the text */
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Additional form input styles (if needed) */
+input:invalid {
+    border-color: red; /* Red border for invalid inputs */
+}
+
+input:focus:invalid {
+    outline: none;
+    border-color: red; /* Red border when the input is focused and invalid */
+}
+
+/* Styling for the Login Heading */
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Additional form and button styling (if needed) */
+form {
+    width: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input and button styles */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 100px;
+    background-color: #3a53b6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
